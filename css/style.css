@@ -48,6 +48,13 @@
 
 
 /* CUSTOM PROPS */
+:root {
+  --orange:#f16718;
+  --light-orange:#ff9b62;
+  --dark:#162542;
+  --gray:#7b8bad;
+  --light-gray:#e8eff2;
+}
 
 
 /* GLOBAL */
