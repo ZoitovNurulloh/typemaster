@@ -228,3 +228,9 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
+@media only screen and (max-width:375px) {
+  .header {
+    padding-top: 1.5rem;
+    padding-bottom:  4rem;
+  }
+}
