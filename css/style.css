@@ -130,6 +130,18 @@ input:-webkit-autofill:focus {
 } */
 
 
+/* LOGO */
+.logo {
+  display: block;
+}
+
+.logo__img {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+}
+
+
 /* BUTTONS */
 
 .btn {
