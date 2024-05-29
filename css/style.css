@@ -344,6 +344,22 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
+@media only screen and (max-width:550px) {
+  .hero__container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .hero__content {
+    margin-bottom: 4rem;
+  }
+
+  .hero__picture {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 }
 
 @media only screen and (max-width:375px) {
