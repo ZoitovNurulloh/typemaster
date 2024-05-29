@@ -186,6 +186,20 @@ input:-webkit-autofill:focus {
 
 
 
+/* HEADER */
+
+.header {
+  padding: 3.5rem 5rem;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
 /* MAIN-CONTENT */
 
 .main-content {
