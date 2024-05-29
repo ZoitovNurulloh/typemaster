@@ -349,6 +349,10 @@ only screen and (                min-resolution: 2dppx) {
     font-size: 1rem;
   }
 
+  .btn-orange {
+    margin-right: 2.31rem;
+  }
+
   .hero__picture {
     position: absolute;
     z-index: -1;
@@ -403,6 +407,10 @@ only screen and (                min-resolution: 2dppx) {
 
   .hero__description {
     margin-bottom: 2rem;
+  }
+
+  .btn-orange {
+    margin-right: 2rem;
   }
 
   .hero__picture {
