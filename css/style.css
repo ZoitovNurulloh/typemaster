@@ -298,7 +298,6 @@ only screen and (                min-resolution: 2dppx) {
   .hero__content {
     margin-top: 0;
   }
-
 }
 
 
@@ -366,5 +365,22 @@ only screen and (                min-resolution: 2dppx) {
   .header {
     padding-top: 1.5rem;
     padding-bottom:  4rem;
+  }
+
+  .hero {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero__heading {
+    margin-bottom: 2rem;
+  }
+
+  .hero__description {
+    margin-bottom: 2rem;
+  }
+
+  .hero__picture {
+    width: 23rem;
+    height: auto;
   }
 }
