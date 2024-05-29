@@ -291,6 +291,10 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 @media only screen and (max-width:1024px) {
+  .hero {
+    overflow: hidden;
+  }
+
   .hero__container {
     align-items: center;
   }
