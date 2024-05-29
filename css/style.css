@@ -272,6 +272,24 @@ input:-webkit-autofill:focus {
 }
 
 
+/* FOOTER */
+.footer {
+  padding-bottom: 2.5rem;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__info {
+  font-weight: 700;
+  margin-right: 3px;
+}
+
+
+
 /* RETINA BACKGROUND IMAGES */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -339,6 +357,10 @@ only screen and (                min-resolution: 2dppx) {
     top: 0;
     right: -10rem;
   }
+
+  .footer {
+    padding-bottom: 2.75rem;
+  }
 }
 
 @media only screen and (max-width:680px) {
@@ -386,5 +408,9 @@ only screen and (                min-resolution: 2dppx) {
   .hero__picture {
     width: 23rem;
     height: auto;
+  }
+
+  .footer {
+    padding-bottom: 3.125rem;
   }
 }
