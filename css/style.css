@@ -307,6 +307,37 @@ only screen and (                min-resolution: 2dppx) {
     padding-top: 2.5rem;
     padding-bottom:  3.875rem;
   }
+
+  .hero {
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero__content {
+    width: 21rem;
+    margin-top: 3.75rem;
+  }
+
+  .hero__heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 2.125rem;
+  }
+
+  .hero__description {
+    font-size: 1rem;
+  }
+
+  .hero__picture {
+    position: absolute;
+    z-index: -1;
+    width: 30rem;
+    height: auto;
+    top: 0;
+    right: -10rem;
+  }
+}
+
 }
 
 @media only screen and (max-width:375px) {
