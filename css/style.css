@@ -211,6 +211,70 @@ input:-webkit-autofill:focus {
 
 
 
+/* HERO */
+.hero {
+  margin-bottom: 1.875rem;
+  background-image: url(../img/pattern-square.svg);
+  background-repeat: no-repeat;
+  background-size: 255px 240px;
+  background-position: right -120px top;
+}
+
+
+.hero__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 27.8rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.75rem;
+  margin-right: 1rem;
+}
+
+.hero__heading {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  color: var(--dark);
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+}
+
+.hero__description {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.hero__release {
+  font-weight: 700;
+}
+
+.btn-orange {
+  margin-right: 2.5rem;
+}
+
+.hero__picture {
+}
+
+.hero__img {
+  width: 33.75rem;
+  height: auto;
+  border-radius: 1rem;
+}
+
+
 /* RETINA BACKGROUND IMAGES */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
