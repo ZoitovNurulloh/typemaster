@@ -133,6 +133,7 @@ input:-webkit-autofill:focus {
 /* LOGO */
 .logo {
   display: block;
+  margin-right: 1rem;
 }
 
 .logo__img {
