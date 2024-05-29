@@ -220,3 +220,11 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+@media only screen and (max-width:768px) {
+  .header {
+    padding-top: 2.5rem;
+    padding-bottom:  3.875rem;
+  }
+}
+
