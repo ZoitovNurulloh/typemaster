@@ -154,6 +154,7 @@ input:-webkit-autofill:focus {
   font-weight: 700;
   text-transform: uppercase;
   color:#fff;
+  cursor: pointer;
   transition: background-color 0.3s ease,
               color 0.3s ease;
 }
