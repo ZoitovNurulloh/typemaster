@@ -265,9 +265,6 @@ input:-webkit-autofill:focus {
   margin-right: 2.5rem;
 }
 
-.hero__picture {
-}
-
 .hero__img {
   width: 33.75rem;
   height: auto;
@@ -291,6 +288,17 @@ only screen and (                min-resolution: 2dppx) {
   .hero {
     background-image: none;
   }
+}
+
+@media only screen and (max-width:1024px) {
+  .hero__container {
+    align-items: center;
+  }
+
+  .hero__content {
+    margin-top: 0;
+  }
+
 }
 
 
