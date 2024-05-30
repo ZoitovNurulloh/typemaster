@@ -456,6 +456,39 @@ only screen and (                min-resolution: 2dppx) {
     right: -10rem;
   }
 
+  .mechanical {
+    margin-bottom: 8.875rem;
+    overflow-x: hidden;
+  }
+
+  .mechanical__container {
+    flex-direction: column;
+  }
+
+  .mechanical__pictures-wrapper {
+    margin-bottom: 4.5rem;
+  }
+
+  .mechanical__red {
+    width: 13.375rem;
+  }
+
+  .mechanical__light {
+    width: 27.8125rem;
+  }
+
+  .mechanical__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .mechanical__heading {
+    margin: 0;
+    margin-right: 1rem;
+  }
+
   .footer {
     padding-bottom: 2.75rem;
   }
