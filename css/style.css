@@ -567,6 +567,25 @@ only screen and (                min-resolution: 2dppx) {
     height: auto;
   }
 
+  .mechanical {
+    margin-bottom: 7rem;
+  }
+
+  .mechanical__red {
+    position: absolute;
+    width: 8rem;
+    display: block;
+    top: 0;
+    left: -8rem;
+  }
+
+  .mechanical__light {
+    position: relative;
+    right: -3.125rem;
+    width: 13.75rem;
+  }
+
+
   .footer {
     padding-bottom: 3.125rem;
   }
