@@ -273,6 +273,7 @@ input:-webkit-autofill:focus {
   display: block;
   width: 33.75rem;
   height: auto;
+  border-radius: 1.25rem;
 }
 
 
@@ -392,6 +393,10 @@ only screen and (                min-resolution: 2dppx) {
 @media only screen and (max-width:1200px) {
   .hero {
     background-image: none;
+  }
+
+  .mechanical {
+    background-image:none;
   }
 }
 
