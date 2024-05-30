@@ -294,8 +294,10 @@ input:-webkit-autofill:focus {
 }
 
 .mechanical__pictures-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .mechanical__red {
