@@ -590,3 +590,14 @@ only screen and (                min-resolution: 2dppx) {
     padding-bottom: 3.125rem;
   }
 }
+
+@media only screen and (max-width:320px) {
+  .mechanical__red {
+    display: none;
+  }
+
+  .mechanical__light {
+    position: static;
+    width: 100%;
+  }
+}
