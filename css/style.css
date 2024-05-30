@@ -270,6 +270,7 @@ input:-webkit-autofill:focus {
 }
 
 .hero__img {
+  display: block;
   width: 33.75rem;
   height: auto;
   border-radius: 1rem;
