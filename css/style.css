@@ -518,6 +518,28 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
+@media only screen and (max-width:460px) {
+  .mechanical__red {
+    display: none;
+  }
+
+  .mechanical__light {
+    width: 100%;
+  }
+
+  .mechanical__content {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .mechanical__heading {
+    width: 255px;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
 @media only screen and (max-width:375px) {
   .header {
     padding-top: 1.5rem;
