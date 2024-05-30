@@ -265,6 +265,10 @@ input:-webkit-autofill:focus {
   margin-right: 2.5rem;
 }
 
+.hero__picture {
+  display: block;
+}
+
 .hero__img {
   width: 33.75rem;
   height: auto;
