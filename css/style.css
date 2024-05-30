@@ -293,6 +293,10 @@ input:-webkit-autofill:focus {
   margin-right: 3px;
 }
 
+.footer__rights {
+  text-transform: capitalize;
+}
+
 
 
 /* RETINA BACKGROUND IMAGES */
