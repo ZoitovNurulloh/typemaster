@@ -703,6 +703,18 @@ only screen and (                min-resolution: 2dppx) {
     width: 13.75rem;
   }
 
+  .feature {
+    margin-bottom: 6rem;
+  }
+
+  .feature__item:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  .feature__wrapper {
+    margin-bottom: 3rem;
+  }
+
 
   .footer {
     padding-bottom: 3.125rem;
