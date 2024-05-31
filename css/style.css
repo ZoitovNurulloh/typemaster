@@ -600,6 +600,24 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
+@media only screen and (max-width:613px) {
+  .feature__list {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .feature__item {
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .feature__item:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
 @media only screen and (max-width:550px) {
   .hero__container {
     flex-direction: column;
