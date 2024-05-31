@@ -565,6 +565,22 @@ only screen and (                min-resolution: 2dppx) {
     margin-right: 1rem;
   }
 
+  .feature__item {
+    max-width: 21rem;
+  }
+
+  .feature__item:nth-child(odd) {
+    margin-right: 0.68rem;
+  }
+
+  .feature__item:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .feature__wrapper {
+    margin-bottom: 2.5rem;
+  }
+
   .footer {
     padding-bottom: 2.75rem;
   }
